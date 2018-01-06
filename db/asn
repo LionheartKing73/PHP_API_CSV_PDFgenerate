@@ -1,0 +1,57 @@
+/*
+SQLyog Community v12.4.2 (64 bit)
+MySQL - 10.1.13-MariaDB : Database - asn
+*********************************************************************
+*/
+
+/*!40101 SET NAMES utf8 */;
+
+/*!40101 SET SQL_MODE=''*/;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`asn` /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci */;
+
+USE `asn`;
+
+/*Table structure for table `asn` */
+
+DROP TABLE IF EXISTS `asn`;
+
+CREATE TABLE `asn` (
+  `Id` text COLLATE utf8_unicode_ci,
+  `FromName` text COLLATE utf8_unicode_ci,
+  `ToName` text COLLATE utf8_unicode_ci,
+  `CustomerName` text COLLATE utf8_unicode_ci,
+  `ShipMode` text COLLATE utf8_unicode_ci,
+  `Destination` text COLLATE utf8_unicode_ci,
+  `XFTYDate` text COLLATE utf8_unicode_ci,
+  `HandoverDate` text COLLATE utf8_unicode_ci,
+  `Division` text COLLATE utf8_unicode_ci,
+  `InvoiceNumber` text COLLATE utf8_unicode_ci,
+  `HMSPONumber_RelationalKey` text COLLATE utf8_unicode_ci,
+  `StyleNumber` text COLLATE utf8_unicode_ci,
+  `Container` text COLLATE utf8_unicode_ci,
+  `Dimention` text COLLATE utf8_unicode_ci,
+  `NW` text COLLATE utf8_unicode_ci,
+  `GW` text COLLATE utf8_unicode_ci
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+/*Data for the table `asn` */
+
+insert  into `asn`(`Id`,`FromName`,`ToName`,`CustomerName`,`ShipMode`,`Destination`,`XFTYDate`,`HandoverDate`,`Division`,`InvoiceNumber`,`HMSPONumber_RelationalKey`,`StyleNumber`,`Container`,`Dimention`,`NW`,`GW`) values 
+('129329','Ningbo Brother','HMS PRODUCTIONS LLC','Nordstrom Rack Plus','SEA','LDP at LA','11/08/2017','11/29/2017','07-T`s','324','129329','NR32498W','423','23','4','2'),
+('129027','Haoning','HMS PRODUCTIONS LLC','Ross','SEA','LDP at LA','11/02/2017','12/19/2017','01-Blouses','53','129027','RP38595','34','34','5','2'),
+('109025','Haoning','HMS PRODUCTIONS LLC','Stock','SEA','Sea to LA','11/06/2017','11/08/2017','01-Blouses','sa','109025','SP21400','345','5','3','6'),
+('109030','MAX','HMS PRODUCTIONS LLC','Ross Womans','SEA','Sea to LA','11/28/2017','12/20/2017','08-Cable & Gauge Sport','435','109030','RZ20190w','62','3445','5','2'),
+('129328','Ningbo Brother','HMS PRODUCTIONS LLC','Nordstromrack.com','SEA','LDP at LA','11/07/2017','11/17/2017','07-T`s','4524','129328','NR32498P','52','34','32','4'),
+('129330','Ningbo Brother','HMS PRODUCTIONS LLC','Nordstromrack.com','SEA','LDP at LA','11/14/2017','12/08/2017','07-T`s','sd','129330','NR32498W','f','sd','f','s'),
+('129331','Mauwing','HMS PRODUCTIONS LLC','Marmaxx','SEA','LDP at LA','11/21/2017','11/24/2017','13-Pointelle','we','129331','NB39509','43','6','2','432'),
+('129332','FUNGYUN','HMS PRODUCTIONS LLC','Marmaxx','SEA','LDP at LA','11/22/2017','11/27/2017','06-Cable & Gauge','4','129332','NB22739','34','43','2','44');
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;

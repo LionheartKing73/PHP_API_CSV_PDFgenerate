@@ -1,0 +1,64 @@
+/*
+SQLyog Community v12.4.2 (64 bit)
+MySQL - 10.1.13-MariaDB : Database - asnitems
+*********************************************************************
+*/
+
+/*!40101 SET NAMES utf8 */;
+
+/*!40101 SET SQL_MODE=''*/;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`asnitems` /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci */;
+
+USE `asnitems`;
+
+/*Table structure for table `po129332` */
+
+DROP TABLE IF EXISTS `po129332`;
+
+CREATE TABLE `po129332` (
+  `CTNNo` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `NumberofCTNs` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Color` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Size1Label` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Size2Label` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Size3Label` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Size4Label` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Size5Label` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Size6Label` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Size7Label` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Size8Label` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Size9Label` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Size10Label` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Size1Qty` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Size2Qty` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Size3Qty` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Size4Qty` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Size5Qty` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Size6Qty` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Size7Qty` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Size8Qty` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Size9Qty` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Size10Qty` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Packs` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `CustomerPO` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+/*Data for the table `po129332` */
+
+insert  into `po129332`(`CTNNo`,`NumberofCTNs`,`Color`,`Size1Label`,`Size2Label`,`Size3Label`,`Size4Label`,`Size5Label`,`Size6Label`,`Size7Label`,`Size8Label`,`Size9Label`,`Size10Label`,`Size1Qty`,`Size2Qty`,`Size3Qty`,`Size4Qty`,`Size5Qty`,`Size6Qty`,`Size7Qty`,`Size8Qty`,`Size9Qty`,`Size10Qty`,`Packs`,`CustomerPO`) values 
+('3','1','8619','2','4','4','4','','','','','','','8','16','16','16','','','','','','','4','4'),
+('4','1','H120','4','4','4','4','','','','','','','8','8','8','8','','','','','','','2','4'),
+('4','1','23192','4','4','4','4','','','','','','','16','16','16','16','','','','','','','4','2'),
+('sd','1','8619','34','5','5','3','','','','','','','170','25','25','15','','','','','','','5','5'),
+('d','1','H120','45','34','3','5','','','','','','','180','136','12','20','','','','','','','4','4'),
+('f','1','23192','45','5','5','5','','','','','','','225','25','25','25','','','','','','','5','5');
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;

@@ -1,0 +1,38 @@
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <h4 class="modal-title">Create Shipping Advise</h4>
+    </div>
+    <div class="modal-body">
+	    <p>To create a new shipping advise, please enter in PO # below.
+	    </p>
+    <form class="form-horizontal" data-validate="parsley">
+<input data-min="6" data-max="6" class="form-control parsley-validated poNumber" placeholder="Enter PO #" type="text">
+ 
+    </div>
+    <div class="modal-footer">
+      <a href="/create-asn.php?id=" class="btn btn-default " data-dismiss="modal">Close</a>
+      <a href="/create-asn.php?id=" class="btn btn-success btn-s-xs createasnn">Create</a>
+    </div>
+       </form>
+  </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+<script>
+	$('.createasnn').click(function(e){
+	  	e.preventDefault();
+      
+	  	var getPONum = $(this).parent().parent().find('.poNumber').val();
+	     url = "http://100.38.175.66:8081/4DACTION/WebService_GetPO?"+getPONum
+       $.getJSON(url, { get_param: 'value' }, function(data) {
+        if (data.length==0){
+          alert("Please enter correct PO Number");
+        }
+        else{
+          window.location.replace("create-asn.php?id="+getPONum);
+        }
+       
+       });
+	  	//if(getPONum!=""){ 	}else{	}
+  	});
+	</script>

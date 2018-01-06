@@ -1,0 +1,30 @@
+{"geonames": [{
+			"fcodeName": "capital of a political entity",
+			"toponymName": "129027",
+			"countrycode": "MX12345W",
+			"fcl": "P",
+			"fclName": "city, village,...",
+			"name": "Mexico City",
+			"wikipedia": "",
+			"lng": -99.12766456604,
+			"fcode": "PPLC",
+			"geonameId": 3530597,
+			"lat": 19.428472427036,
+			"division": "01-Blouse",
+			"population": "8619;Black"
+		}, {
+			"fcodeName": "capital of a political entity",
+			"toponymName": "109025",
+			"countrycode": "PH12345P",
+			"fcl": "P",
+			"fclName": "city, village,...",
+			"name": "Manila",
+			"wikipedia": "",
+			"lng": 120.9822,
+			"fcode": "PPLC",
+			"geonameId": 1701668,
+			"lat": 14.6042,
+			"division": "03-Cupio",
+			"population": "2968;Navy"
+		}]
+}

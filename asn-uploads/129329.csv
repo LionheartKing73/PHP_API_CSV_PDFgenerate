@@ -1,0 +1,6 @@
+ID,FromName,ToName,CustomerName,ShipMode,Destination,XFTYDate,HandoverDate,Division,InvoiceNumber,HMSPONumber_RelationalKey,StyleNumber,Container,Dimention,NW,GW,PO#,sCTNNo,NumberofCTNs,Color,Size1Label,Size2Label,Size3Label,Size4Label,Size5Label,Size6Label,Size7Label,Size8Label,Size9Label,Size10Label,Size1Qty,Size2Qty,Size3Qty,Size4Qty,Size5Qty,Size6Qty,Size7Qty,Size8Qty,Size9Qty,Size10Qty,Packs,CustomerPO
+129329,Ningbo Brother,HMS PRODUCTIONS LLC,Nordstrom Rack Plus,SEA,LDP at LA,12/01/2017,12/01/2017,07-T`s,10,129329,NR32498W,20,30,40,02,129329,2,1,27776,20,30,40,,,,,,,,40,60,80,,,,,,,,2,1
+,,,,,,,,,,,,,,,,129329,3,1,27851,3,2,59,,,,,,,,6,4,118,,,,,,,,2,1
+,,,,,,,,,,,,,,,,129329,2,1,27850,3,3,3,,,,,,,,279,279,279,,,,,,,,93,2
+,,,,,,,,,,,,,,,,129329,3,1,29999,2,3,2,,,,,,,,20,30,20,,,,,,,,010,2
+,,,,,,,,,,,,,,,,129329,4,1,29300,2,2,3,,,,,,,,20,20,30,,,,,,,,10,100
